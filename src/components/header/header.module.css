@@ -1,0 +1,33 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 40px;
+    z-index: 9999;
+}
+.navContainer img {
+    cursor: pointer;
+}
+.helpcontainer{
+   display: flex;
+   gap:2px;
+   color: #474747;
+   line-height: 20px;
+   font-size: 16px;
+   font-weight: 400;
+   cursor: pointer;
+}
+.mobileNav {
+    display: none;
+}
+
+@media screen and (max-width: 420px) {
+    .navContainer {
+        display: none;
+    }
+    .mobileNav {
+        display: block;
+        padding: 20px 24px;
+        z-index: 9999;
+    }
+  }

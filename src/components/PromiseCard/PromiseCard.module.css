@@ -1,0 +1,49 @@
+.PromiseCard {
+    width: 282px;
+    border-radius: 12px;
+    border: 1px solid #D6D6D6;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    box-sizing: border-box;
+}
+
+.promisehead, .promiseText {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #474747;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.promiseText {
+  font-weight: 400;
+  line-height:24px;
+}
+.cardsvg {
+  width: 42px;
+  height: 42px; 
+}
+@media screen and (max-width: 420px) {  
+  .PromiseCard {
+    border-radius: unset;
+    border: 0px;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+  }
+  .cardsvg {
+    width: 24px;
+    height: 24px;
+  }
+  .promisehead, .promiseText  {
+    margin: 0px;
+   }
+  .promiseText {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+}

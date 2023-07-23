@@ -1,0 +1,181 @@
+.Ordercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width:360px;
+}
+
+/* order details page */
+
+.orderdetails {
+    padding-bottom:12px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.mainImg {
+   width: 360px;
+   height: 230px;
+   border-radius: 12px;
+   object-fit: fill; 
+}
+
+.heading ,.atext {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 26px;
+   letter-spacing: -2%;
+   color:#474747; 
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap:16px;
+    margin-bottom: 12px;
+}
+
+.data p {
+    margin: 0px;
+}
+.data img {
+    width: 24px;
+    height: 24px;
+    color: #474747;
+}
+
+.atext {
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: unset;
+}
+
+
+/* ticket over view design */
+.ticketOverview p {
+    margin: 0px;
+}
+.tickhead {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -2%;
+    color: #474747;
+    margin-bottom: 32px !important;
+}
+
+.paytp ,.paytpt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.paytp p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.discount {
+    color:#006642;
+    cursor: pointer;
+}
+
+.promocode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:28px 0px;
+    border-bottom: 1px solid #D6D6D6;
+    border-top: 1px solid #D6D6D6;
+}
+
+.coupntext {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.coupntext p {
+    text-decoration: underline;
+    text-decoration-color: #006642;
+}
+
+.couponRemove p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.totalbox {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.textbold {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.paytpt {
+    margin-bottom: 8px;
+}
+
+.litetext {
+   font-size: 400;
+   font-size: 12px;
+   line-height: 16px;
+}
+
+.freeCancelation {
+    padding: 16px 20px;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.fbt {
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 16px;
+   margin-bottom: 6px !important; 
+}
+
+.flt {
+    font-weight: 400;
+    line-height: 22px;
+}
+.litetext {
+    text-decoration: underline;
+    text-decoration-color: #595959;
+    color: #595959;
+}
+
+
+@media screen and (max-width: 420px) {  
+    .Ordercontainer {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 24px;
+        border-bottom: 1px solid #D6D6D6;
+        gap: 24px;
+    }
+    .mainImg {
+        width: 100%;
+    }
+    .atext {
+        font-size: 14px;
+    }
+    .tickhead {
+        margin-bottom: 24px !important;
+    }
+    .promocode {
+        padding: 16px 0px;
+    }
+    .orderdetails {
+        margin-top: 60px;
+    }
+    .flt {
+         font-size: 12px;
+         font-weight: 400;
+         line-height: 20px;
+    }
+    
+}

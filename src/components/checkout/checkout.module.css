@@ -1,0 +1,333 @@
+.payersection {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom:64px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #D6D6D6;
+  }
+
+  .payinfo {
+     width: 792px;
+     padding-right: 24px;
+     padding-bottom: 24px;
+     border-right: 1px solid #D6D6D6;
+  }
+
+  .mainHeading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2%;
+    color: #474747;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .eachSection {
+    margin-top: 44px;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0px;
+    color: #474747;
+  }
+  .sunHeading {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0px;
+    margin-top: 6px;
+  }
+  .totalPriceBox{
+    margin-top: 40px;
+  }
+  .totalPrice {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -2%;
+    margin: 0px;
+  }
+
+  .currwncy{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #595959;
+    text-decoration: underline;
+    text-decoration-color:#595959 ;
+    margin: 0px;
+    margin-top: 8px;
+  }
+  
+  .paysecuin {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #595959;
+  }
+  
+  .paysecuin span {
+    color: #1733B6 ;
+  }
+.capay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 197px;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  background-color: #0A0A0A;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+
+
+/* form input design */
+
+.inputcontainer {
+  width:384px ;
+}
+.inputBoxs , .payeedetails {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.labelContent {
+  position: relative;
+  width:384px;
+}
+
+.floatingLabel {
+  color: #595959;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 20px;
+  padding: 0 5px;
+  background: #fff;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  width: 70%;
+}
+
+.floatingInput {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 20px 16px;
+  background: #fff;
+  color: #474747;
+  border: 1px solid #D6D6D6;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+.floatingInput:focus {
+  outline: none;
+}
+
+.floatingInput:not(:placeholder-shown) + .floatingLabel,
+.floatingInput:focus + .floatingLabel {
+  top: -8px;
+  font-size: 12px;
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+  width: fit-content;
+}
+
+
+.inputerrormsg {
+  color: #C22F00;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+
+/* phone input */
+
+.inputPhonecontainer {
+  width: 384px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 10px;
+}
+.countrycodeNumber {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  color: #474747;
+  border: 1px solid #D6D6D6;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 0px 16px;
+}
+
+.countrycodeNumber img {
+  border-radius: 6px;
+  cursor: pointer;
+}
+.phonenumINp {
+  padding: 20px 16px;
+  font-family: inherit;
+  display: block;
+  border: 0px;
+  width: 100%;
+}
+
+.phonenumINp:focus {
+  outline: none;
+}
+.phoneLabel {
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+.PhoneNumDropDownlist {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: rgba(31, 31, 31, 0.1) 0px 8px 16px;
+  width: 100%;
+  border-radius: 12px;
+  top: 64px;
+  display: none;
+}
+/* tips to mail design */
+
+.recivetips {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: #F5F5F5;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+.rtext {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* circle  */
+.normalc ,.selectedcircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #0A0A0A;
+  box-sizing: border-box;
+}
+
+.selectedcircle {
+  border: 5px solid #0A0A0A;
+  box-sizing: border-box;
+}
+
+/* payment card design */
+.PymentModes {
+  padding-bottom: 24px;
+}
+.paymentHeaadng {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 34px;
+  cursor: pointer;
+}
+.eachPaymentMode {
+  border-bottom: 1px solid #D6D6D6;
+  padding-bottom: 24px;
+}
+.ctxt {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.ctxt p {
+  margin: 0px;
+  font-weight: 600;
+  size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+  @media screen and (max-width: 420px) {  
+    .payersection {
+        width: calc(100% - 48px);
+        margin: 20px auto;
+        flex-direction: column-reverse;
+    }
+    .payinfo {
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+        border-right: unset;
+    }
+    .floatingInput{
+      width: 86vw;
+    }
+    .labelContent {
+      width: unset;
+      box-sizing:border-box;
+      
+    }
+    .mainHeading {
+      position: absolute;
+      top: 78px;
+      display: block;
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .capay{
+      margin-bottom: 24px;
+    }
+    .totalPriceBox {
+      margin-bottom: 24px;
+    }
+    .eachSection {
+      margin-top: 24px;
+  }
+  .payeedetails,.inputBoxs{
+    gap: 24px;
+  }
+  .heading {
+    font-size: 18px;
+    line-height: 26px;
+  } 
+  .sunHeading {
+     font-size: 14px;
+     line-height: 22px;
+  }
+  .inputPhonecontainer {
+    margin-top: 8px;
+  }
+  }

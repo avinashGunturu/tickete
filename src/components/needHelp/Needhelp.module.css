@@ -1,0 +1,56 @@
+.needhelpCard {
+    background-color:#FFF7ED;
+    border-radius: 12px;
+    width: 360px;
+    padding: 32px 24px;
+    box-sizing: border-box;
+}
+.needhelpCard p {
+    margin: 0px;
+}
+.textIcon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.nhelp {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -2%;
+    color:#7F2D0F;
+    margin-bottom: 6px;
+}
+
+.nhtext {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7F2D0F;
+    margin-top: 8px !important;
+}
+.chatButton {
+    padding:12px 24px ;
+    border-radius:12px ;
+    border: 1px solid #7F2D0F;
+    color: #7F2D0F;
+    text-align: center;
+    width: 145px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+.borderbx {
+    border: 0px;
+}
+@media screen and (max-width: 420px) {
+   .needhelpCard {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+   }
+   .borderbx {
+    width: 100%;
+    border-bottom: 1px solid #D6D6D6;
+   }
+ }
