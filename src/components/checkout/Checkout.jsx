@@ -292,7 +292,7 @@ const formatCardNumber = (value) => {
                 <div className={checkoutcss.inputBoxs}>
                     <div  className={checkoutcss.inputcontainer}>
                       <div className={checkoutcss.labelContent}>
-                        <input className={checkoutcss.floatingInput} type="number" placeholder=" " value={additionalDetails.age} onChange={(e)=>{setAdditionalDetais((prev)=>({...prev,age:e.target.value}))}} autoComplete="off"/>
+                        <input className={checkoutcss.floatingInput} type="number" placeholder=" " value={additionalDetails.age} onChange={(e)=>{setAdditionalDetais((prev)=>( e.target.value > 10  && {...prev,age:e.target.value}))}} autoComplete="off"/>
                         <label className={checkoutcss.floatingLabel}>Age</label>
                       </div>
                       {/* <p className={checkoutcss.inputerrormsg}>error</p>  */}
